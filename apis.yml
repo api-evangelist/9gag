@@ -1,9 +1,30 @@
 aid: 9gag
 name: 9GAG
-description: 9GAG is a company surfaced as a portfolio company of 500-global, y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  9GAG is a Hong Kong-based global entertainment platform founded in 2008 with the
+  mission to "make the world happier." It is one of the largest meme and user-generated
+  humor communities on the internet, distributing funny images, GIFs, and videos across
+  its website and iOS/Android apps to an audience of 150-200 million people and billions
+  of monthly video views. 9GAG operates consumer-facing products (the 9GAG feed, 9GAG Pro
+  subscription, and related community features) rather than a public developer API program;
+  it was surfaced in the API Evangelist network as a venture-backed company (500 Global,
+  Y Combinator, Freestyle Capital, True Ventures, First Round Capital, Greycroft) and has
+  been enriched with its real public web, policy, and security surfaces. No official public
+  API or developer portal is published as of this enrichment; the community libraries that
+  exist are unofficial and reverse-engineered.
 url: https://raw.githubusercontent.com/api-evangelist/9gag/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images-cdn.9gag.com/img/9gag-og.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -16,6 +37,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Entertainment
+- Social Media
+- Memes
+- Content
+- Media
+- Community
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://9gag.com
+- type: Blog
+  url: https://about.9gag.com/9gag-blog
+- type: Support
+  url: https://about.9gag.com/contact
+- type: TermsOfService
+  url: https://about.9gag.com/tos
+- type: PrivacyPolicy
+  url: https://about.9gag.com/privacy
+- type: SecurityTxt
+  url: well-known/9gag-security.txt
+- type: WellKnown
+  url: well-known/9gag-well-known.yml
+- type: DomainSecurity
+  url: security/9gag-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/9gag-vulnerability-disclosure.yml
+- type: Security
+  url: https://9gag.com/.well-known/security.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
